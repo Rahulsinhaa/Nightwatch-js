@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="expect.test"
+    errors="0" failures="0" hostname="" id="" package="expect.test" skipped="0"
+    tests="4" time="15.77" timestamp="">
+  
+    <testcase name="Expect Library demo tests" classname="expect.test" time="7.188" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Should assert form field value" classname="expect.test" time="0.6430" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Should assert current url" classname="expect.test" time="0.02400" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Should assert title of current page" classname="expect.test" time="0.02500" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

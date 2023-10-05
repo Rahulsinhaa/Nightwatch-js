@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="selector.test"
+    errors="0" failures="0" hostname="" id="" package="selector.test" skipped="0"
+    tests="2" time="30.25" timestamp="">
+  
+    <testcase name="css and xpath" classname="selector.test" time="9.099" assertions="0">
+    </testcase>
+  
+    <testcase name="the next test" classname="selector.test" time="6.011" assertions="0">
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

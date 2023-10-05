@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="MochaDataDriven"
+    errors="1" failures="0" hostname="" id="" package="MochaDataDriven" skipped="2"
+    tests="1" time="0.1630" timestamp="">
+  
+
+  
+    <system-err>
+       ✖ ReferenceError
+   saveScreenshot is not defined
+
+    Error location:
+    /home/knoldus/vs code/nightWatchjs/tests/MochaDataDriven.js:
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     14 |             //     assert.equal(str.value, &#34;Welcome to the Secure Area. When you are done click logout below.&#34;, &#34;on secure area page&#34;);
+     15 |             // })
+     16 |             saveScreenshot(&#39;tests/screensnhot/rahul.jpege&#39;) 
+     17 |            });
+     18 |     });
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    Stack Trace :
+    at DescribeInstance.&lt;anonymous&gt; (/home/knoldus/vs code/nightWatchjs/tests/MochaDataDriven.js:16:13)
+    at Context.call (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/context.js:413:39)
+    at TestCase.run (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/testcase.js:50:39)
+    at Runnable.__runFn (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/index.js:647:84)
+    at Runnable.run (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/runnable.js:103:27)
+    at TestSuite.executeRunnable (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/index.js:776:55)
+    at TestSuite.handleRunnable (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/index.js:789:39)
+    at /home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/index.js:647:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async DefaultRunner.runTestSuite (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/runner/test-runners/default.js:69:13)
+
+    </system-err>
+  
+
+    
+    <error message="saveScreenshot is not defined"><![CDATA[
+      ReferenceError: saveScreenshot is not defined
+    at DescribeInstance.&lt;anonymous&gt; (/home/knoldus/vs code/nightWatchjs/tests/MochaDataDriven.js:16:13)
+    at Context.call (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/context.js:413:39)
+    at TestCase.run (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/testcase.js:50:39)
+    at Runnable.__runFn (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/index.js:647:84)
+    at Runnable.run (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/runnable.js:103:27)
+    at TestSuite.executeRunnable (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/index.js:776:55)
+    at TestSuite.handleRunnable (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/index.js:789:39)
+    at /home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/index.js:647:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async DefaultRunner.runTestSuite (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/runner/test-runners/default.js:69:13)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Should verify that the name error message is shown" classname="MochaDataDriven">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should verify that the name error message is shown" classname="MochaDataDriven">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

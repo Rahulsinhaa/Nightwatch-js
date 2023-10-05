@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="kekalogin"
+    errors="1" failures="0" hostname="" id="" package="kekalogin" skipped="1"
+    tests="0" time="0.001000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new GeckoDriver session: [Error] Server was killed with SIGABRT
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;&#39;,
+     port: 4444,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  More info might be available in the log file: /home/knoldus/vs code/nightWatchjs/logs/kekalogin_geckodriver.log
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new GeckoDriver session: [Error] Server was killed with SIGABRT"><![CDATA[
+      Error: An error occurred while creating a new GeckoDriver session: [Error] Server was killed with SIGABRT
+    at /home/knoldus/vs code/nightWatchjs/node_modules/selenium-webdriver/remote/index.js:260:24
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Assert Library demo tests" classname="kekalogin">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

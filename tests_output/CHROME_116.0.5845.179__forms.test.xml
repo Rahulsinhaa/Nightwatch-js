@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="forms.test"
+    errors="1" failures="0" hostname="" id="" package="forms.test" skipped="0"
+    tests="1" time="17.32" timestamp="">
+  
+    <testcase name="form element click" classname="forms.test" time="8.658" assertions="0">
+    <error message="Error while running &#34;setValue&#34; command: setValue method expects 3 (or 4 if using implicit &#34;css selector&#34; strategy) arguments - 2 given." type="error"><![CDATA[
+    Error
+    at form element click (/home/knoldus/vs code/nightWatchjs/tests/forms.test.js:30:16)
+    at Context.call (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/context.js:413:39)
+    at TestCase.run (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/testcase.js:50:39)
+    at Runnable.__runFn (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/index.js:647:84)
+    at Runnable.run (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/runnable.js:103:27)
+    at TestSuite.executeRunnable (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/index.js:776:55)
+    at TestSuite.handleRunnable (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/index.js:789:39)
+    at /home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/testsuite/index.js:647:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async DefaultRunner.runTestSuite (/home/knoldus/vs code/nightWatchjs/node_modules/nightwatch/dist/runner/test-runners/default.js:69:13)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       Error
+   Error while running &#34;setValue&#34; command: setValue method expects 3 (or 4 if using implicit &#34;css selector&#34; strategy) arguments - 2 given.
+
+    Error location:
+    /home/knoldus/vs code/nightWatchjs/tests/forms.test.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     28 |         client.click(&#39;//*[@id=&#34;passwordNext&#34;]/div/button&#39;)
+     29 |         client.click(&#39;//*[@id=&#34;yDmH0d&#34;]/c-wiz/div/div[2]/div/div[1]/div/form/span/section[2]/div/div/section/div/div/div/ul/li[3]&#39;)
+     30 |         client.setValue(7645833848) 
+     31 |         client.pause()
+     32 |     },
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
